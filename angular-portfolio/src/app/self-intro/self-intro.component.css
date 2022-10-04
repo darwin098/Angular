@@ -1,0 +1,27 @@
+#self-intro-component {
+  display: flex;
+  margin-top: 20px;
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+#greeting {
+  color: white;
+  font-size: 35px;
+  margin: 0 0 8px;
+}
+
+#self-intro {
+  color: white;
+  font-size: 20px;
+  margin: 24px 0px 16px;
+}
+
+#self-intro-text {
+  font-weight: 300;
+  line-height: 1.7;
+}
+
+#self-intro-links {
+  position: absolute;
+}

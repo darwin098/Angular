@@ -1,0 +1,11 @@
+<section>
+  <a
+    *ngFor="let link of RelevantLinks"
+    href="{{ link.link }}"
+    class="relevant-links"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <i class="{{ link.fontAwesomeClass }}"></i>
+  </a>
+</section>

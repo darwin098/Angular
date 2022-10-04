@@ -1,0 +1,24 @@
+<div id="education-section">
+  <!-- Title -->
+  <h1>Education</h1>
+
+  <!-- Information -->
+  <section *ngFor="let educated of education">
+    <h2>{{ educated.location }}</h2>
+    <p>{{ educated.purpose }}</p>
+    <p>
+      {{ educated.startDate | uppercase }} - {{ educated.endDate | uppercase }}
+    </p>
+    <ul>
+      <li *ngFor="let info of educated.moreInfo">
+        {{ info }}
+      </li>
+    </ul>
+  </section>
+
+  <div id="poly">
+    <svg viewBox="0 0 2560 100">
+      <polygon points="2560 0 2560 100 0 100" style="fill: white"></polygon>
+    </svg>
+  </div>
+</div>

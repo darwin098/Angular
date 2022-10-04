@@ -1,0 +1,19 @@
+.rel-links-section {
+  display: flex;
+  gap: 10px;
+}
+
+.relevant-links {
+  /* background-color: black; */
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: white;
+  text-decoration: none;
+}
+
+.relevant-links:hover {
+}

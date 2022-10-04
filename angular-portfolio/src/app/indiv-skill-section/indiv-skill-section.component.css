@@ -1,0 +1,27 @@
+.indiv-skill-section {
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.indiv-skill-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.indiv-skill-title {
+  font-weight: 400;
+  line-height: 1.5;
+  color: #32325d;
+  font-size: 1.75rem;
+  margin: 0px 0px 8px;
+}
+
+.skills-icon-list {
+  display: flex;
+}
+
+.skill-pointers {
+  text-align: center;
+}

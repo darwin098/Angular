@@ -1,0 +1,14 @@
+<div id="proficiency-section">
+  <div>
+    <!-- Title -->
+    <h1>Proficiency</h1>
+
+    <!-- Chart of Proficiency in areas -->
+    <section *ngFor="let proficient of proficiency">
+      <p>{{ proficient.title | uppercase }}</p>
+      <p>{{ proficient.percentage }}%</p>
+    </section>
+  </div>
+
+  <app-lottie-player [options]="options"></app-lottie-player>
+</div>

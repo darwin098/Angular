@@ -1,0 +1,25 @@
+#skills-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 96px 15px;
+  margin: 48px 106.5px;
+}
+
+#skills-title {
+  font-weight: 400;
+  line-height: 1.5;
+  color: #32325d;
+  font-size: 40px;
+  margin: 0px 0px 8px;
+}
+
+#short-intro {
+  font-size: 1.25rem;
+  color: #525f7f;
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 300;
+  line-height: 1.7;
+}

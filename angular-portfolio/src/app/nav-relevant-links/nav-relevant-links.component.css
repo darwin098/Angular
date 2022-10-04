@@ -1,0 +1,8 @@
+.relevant-links {
+  margin: 10px;
+  color: white;
+}
+
+.relevant-links:hover {
+  color: rgba(255, 255, 255, 0.5);
+}

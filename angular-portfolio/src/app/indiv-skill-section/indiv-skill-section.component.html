@@ -1,0 +1,17 @@
+<div class="indiv-skill-section">
+  <div>
+    <app-lottie-player [options]="options"></app-lottie-player>
+  </div>
+
+  <div class="indiv-skill-content">
+    <h3 class="indiv-skill-title">{{ title | titlecase }}</h3>
+    <section class="skills-icon-list">
+      <div *ngFor="let tech of technologies">
+        <iconify-icon icon="{{ tech.icon }}"></iconify-icon>
+      </div>
+    </section>
+    <div *ngFor="let point of sellingPoints">
+      <p class="skill-pointers">{{ point }}</p>
+    </div>
+  </div>
+</div>

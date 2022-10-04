@@ -1,0 +1,147 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: Augestina;
+  src: url("src/assets/fonts/Agustina.otf");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+#top-bg {
+  background-image: linear-gradient(
+    35deg,
+    rgb(17, 205, 239),
+    rgb(17, 113, 239)
+  );
+  height: 836px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+#circles {
+  /* z-index: -1; */
+}
+
+#circles > :nth-child(1) {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  left: -4%;
+  bottom: auto;
+  background: hsla(0, 0%, 100%, 0.1);
+  position: absolute;
+}
+
+#circles > :nth-child(2) {
+  right: 4%;
+  top: 10%;
+  background: hsla(0, 0%, 100%, 0.1);
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+#circles > :nth-child(3) {
+  height: 120px;
+  width: 120px;
+  top: 280px;
+  right: 5.66666%;
+  background: hsla(0, 0%, 100%, 0.3);
+  border-radius: 50%;
+  position: absolute;
+}
+
+#circles > :nth-child(4) {
+  top: 320px;
+  right: 7%;
+  background: hsla(0, 0%, 100%, 0.15);
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+#circles > :nth-child(5) {
+  top: 38%;
+  left: 1%;
+  right: auto;
+  background: hsla(0, 0%, 100%, 0.05);
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+#circles > :nth-child(6) {
+  width: 200px;
+  height: 200px;
+  top: 44%;
+  left: 10%;
+  right: auto;
+  background: hsla(0, 0%, 100%, 0.15);
+  border-radius: 50%;
+  position: absolute;
+}
+
+#circles > :nth-child(7) {
+  bottom: 50%;
+  right: 36%;
+  background: hsla(0, 0%, 100%, 0.04);
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+#circles > :nth-child(8) {
+  bottom: 140px;
+  right: 2%;
+  background: hsla(0, 0%, 100%, 0.2);
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+#circles > :nth-child(9) {
+  bottom: 9%;
+  right: 2%;
+  background: hsla(0, 0%, 100%, 0.1);
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+#nav-title {
+  font-family: Augestina;
+  font-size: 2rem;
+  color: white;
+  margin: 0 0 8px;
+  font-weight: 400;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10em;
+  padding-right: 10em;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#poly {
+  /* justify-self: flex-end; */
+  margin-top: auto;
+  /* background-color: pink; */
+  display: flex;
+}

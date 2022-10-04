@@ -1,0 +1,19 @@
+<div id="self-intro-component">
+  <div id="self-intro-text">
+    <!-- Greetings -->
+    <h1 id="greeting">Hi all, I'm {{ Name | titlecase }}</h1>
+
+    <!-- Small Self-Introduction -->
+    <p id="self-intro">
+      {{ SelfIntro }}
+    </p>
+
+    <!-- Relevant links -->
+    <div id="self-intro-links">
+      <app-relevant-links></app-relevant-links>
+    </div>
+  </div>
+
+  <!-- Animation -->
+  <app-lottie-player [options]="options"></app-lottie-player>
+</div>

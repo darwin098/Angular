@@ -1,0 +1,25 @@
+<div id="projects-section">
+  <!-- Title -->
+  <h1>Projects</h1>
+
+  <section id="projects-list">
+    <div *ngFor="let project of Projects" class="indiv-project">
+      <h2>{{ project.title | titlecase }}</h2>
+      <p>
+        {{ project.description }}
+      </p>
+      <section>
+        <a
+          *ngFor="let projectInfo of project.projects"
+          href="{{ projectInfo.link }}"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button>
+            <span>{{ projectInfo.linkTitle | uppercase }}</span>
+          </button>
+        </a>
+      </section>
+    </div>
+  </section>
+</div>
